@@ -7,12 +7,14 @@ import Contact from './pages/Contact';
 import Disclaimer from './pages/Disclaimer';
 import MyNavbar from './components/MyNavbar';
 import MyFooter from './components/MyFooter';
+import Banner from './components/Banner.js';
 
 
 function App() {
   return (
     <Router>
       <MyNavbar />
+      <Banner />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/qui-sommes-nous" element={<About />} />

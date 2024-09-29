@@ -5,7 +5,7 @@ import SocialMediaIcons from "./SocialMediaIcons.js";
 
 function MyFooter() {
   return (
-    <footer className="footer">
+    <footer>
         <div className="footer-infos-left">
           <p>L'Atelier Tarpin Bois<br />06.98.83.77.31<br />Siren 919 281 527</p>
         </div>

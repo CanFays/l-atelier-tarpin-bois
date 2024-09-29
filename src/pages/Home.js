@@ -1,19 +1,31 @@
 import React from 'react';
+import './Home.css';
+import LogoFull from '../assets/icons/LogoFull.png'
 
 function Home() {
   return (
     <main className="container home">
-      <section className="banner">
-
+      <section className='home-logo'>
+        <div>
+          <img src={LogoFull} alt="Logo de l'atelier Tarpin Bois" />
+        </div>
+        <div>
+          <h2>Artisan ébéniste</h2>
+          <p>Créateur d'idées en bois</p>
+        </div>
       </section>
 
       <section className='home-presentation'>
         {/* grid sections !!! */}
-        <h1>Bienvenue sur l'Accueil de tarpinbois</h1>
-        <p>Bienvenue sur le site de notre atelier d'ébénisterie à Marseille.</p>
-        <div>
-          sdjh <br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeusdjh <br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu<br /> jhfzeu
-        </div>
+      </section>
+
+      <section className='home-research'>
+      </section>
+
+      <section className='home-proposal'>
+      </section>
+
+      <section className='home-links'>
       </section>
     </main>
   );
