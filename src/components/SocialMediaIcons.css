@@ -1,0 +1,19 @@
+.social-icon {
+  height: 4vmin;
+  pointer-events: none;
+  margin: 1vmin;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .social-icon {
+    animation: social-icon-spin infinite 20s linear;
+  }
+}
+
+   @keyframes social-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
