@@ -24,13 +24,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  padding-left: 5px;
-}
+/* a:hover { ?
+} */
 
 /* Couleurs du site :
   background color : #FDFDF9; => index.css
-  Main blue color: #008A95; => MyNavbar.css, MyFooter,
+  Main blue color: #008A95; => MyNavbar.css, MyFooter, TitleLined
   Btn tomette color: #A84134; =>
   background-components color: #FFFFFE; => */
 

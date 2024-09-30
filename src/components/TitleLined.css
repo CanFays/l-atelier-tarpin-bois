@@ -1,0 +1,19 @@
+.title-lined {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  margin: 0 10px;
+  background-color: #008A95;
+  flex-grow: 1; /* prend autant d'espace que possible */
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: larger;
+  color: #008A95;
+  white-space: nowrap;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import LogoFull from '../assets/icons/LogoFull.png'
+import BtnTommette from '../components/BtnTommette';
+import TitleLined from '../components/TitleLined';
 
 function Home() {
   return (
@@ -16,13 +18,16 @@ function Home() {
       </section>
 
       <section className='home-presentation'>
-        {/* grid sections !!! */}
+        <TitleLined myTitle={"Tarpin bois qu’es aquò ?"} />
+        <BtnTommette lineOne={"APPUYEZ"} lineTwo={"ici !!!"} linkTo={'/contact'} />
       </section>
 
       <section className='home-research'>
+        {/* grid sections !!! */}
       </section>
 
       <section className='home-proposal'>
+        {/* grid sections !!! */}
       </section>
 
       <section className='home-links'>
