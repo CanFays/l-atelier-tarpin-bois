@@ -13,5 +13,6 @@
 }
 
 .btn-tommette:hover {
-  background-color: #0056b3;
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
 }

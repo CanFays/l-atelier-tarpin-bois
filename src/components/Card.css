@@ -1,0 +1,55 @@
+.card {
+  margin: 1vmin;
+  border: 0.5px solid #008A95;
+  border-radius: 4px;
+  background-color: #FFFFFE;
+  box-shadow : 0px 0px 7px rgba(122, 122, 122, .2);
+  transition: transform 0.6s ease-in-out;
+  backface-visibility: hidden;
+  position: relative;
+}
+
+/* .card:hover {
+GROSSIR LES DOTS ???
+} */
+
+.card-img-1 img {
+  width: 20%;
+  margin: 1vmin;
+}
+.card-img-2-3 img {
+  width: 40%;
+  margin: 1vmin;
+}
+  @media (max-width: 576px) {
+    .card-img-1 img,
+    .card-img-2-3 img {
+      width: 35px;
+    }
+  }
+
+.card-dot {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card-dot img {
+  width: 2vmin;
+}
+
+/* Transformation pour retourner la carte QUE LE TEXTE ?! */
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+/* Styles pour le SVG Dot */
+.card-dot svg {
+  fill: #008A95;
+  transition: fill 0.3s ease;
+}
+
+.card-dot:hover svg {
+  fill: #067078;
+}

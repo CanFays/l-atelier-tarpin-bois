@@ -3,6 +3,12 @@ import './Home.css';
 import LogoFull from '../assets/icons/LogoFull.png'
 import BtnTommette from '../components/BtnTommette';
 import TitleLined from '../components/TitleLined';
+import Card from '../components/Card';
+import IconProposal1 from '../assets/icons/IconProposal1.svg';
+import IconProposal2 from '../assets/icons/IconProposal2.svg';
+import IconProposal3 from '../assets/icons/IconProposal3.svg';
+
+
 
 function Home() {
   return (
@@ -50,18 +56,36 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+
       <TitleLined myTitle={"JE PROPOSE"} />
       <section className='home-proposal'>
         <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              Column
+          <div class="row justify-content-center">
+            <div class="card col-10 col-sm-5 col-md-3 card-img-1">
+              <Card
+              cardImage={IconProposal1}
+              title="Ma Carte1"
+              shortDesc="Description courte"
+              longDesc="Voici une longue description qui apparaîtra lorsque vous cliquerez sur le Dot."
+              />
             </div>
-            <div class="col">
-              Column
+            <div class="card col-10 col-sm-5 col-md-3 order-md-2 card-img-2-3">
+              <Card
+              cardImage={IconProposal2}
+              title="Ma Carte2"
+              shortDesc="Description courte"
+              longDesc="Voici une longue description qui apparaîtra lorsque vous cliquerez sur le Dot."
+              />
             </div>
-            <div class="col">
-              Column
+            <div class=" card col-10 col-sm-6 order-sm-2 col-md-3 card-img-2-3">
+              <Card
+              cardImage={IconProposal3}
+              title="Ma Carte3"
+              shortDesc="Description courte"
+              longDesc="Voici une longue description qui apparaîtra lorsque vous cliquerez sur le Dot."
+              />
             </div>
           </div>
         </div>
