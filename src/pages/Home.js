@@ -3,10 +3,10 @@ import './Home.css';
 import LogoFull from '../assets/icons/LogoFull.png'
 import BtnTommette from '../components/BtnTommette';
 import TitleLined from '../components/TitleLined';
-import Card from '../components/Card';
-import IconProposal1 from '../assets/icons/IconProposal1.svg';
-import IconProposal2 from '../assets/icons/IconProposal2.svg';
-import IconProposal3 from '../assets/icons/IconProposal3.svg';
+import CardList from '../components/Card';
+// import IconProposal1 from '../assets/icons/IconProposal1.svg';
+// import IconProposal2 from '../assets/icons/IconProposal2.svg';
+// import IconProposal3 from '../assets/icons/IconProposal3.svg';
 
 
 
@@ -31,9 +31,9 @@ function Home() {
       </section>
       <TitleLined myTitle={"VOUS VOULEZ"} />
       <section className='home-research'>
-      <div class="container text-center">
-          <div class="row">
-            <div class="col-12 col-md-8">
+      <div className="container text-center">
+          <div className="row">
+            <div className="col-12 col-md-8">
               <p>
               vous offrir du mobilier unique, durable, en bois massif <br />
               agencer votre appartement de manière optimale et personnalisée, sans trouver de solution auprès des grandes enseignes <br />
@@ -43,10 +43,10 @@ function Home() {
             </div>
             <div className="col-md-4">
               <div className="row justify-content-center">
-                <div class="col-7 col-sm-4 col-md-12">
+                <div className="col-7 col-sm-4 col-md-12">
                   <BtnTommette lineOne={"DEMANDEZ"}  lineTwo={"un devis"} linkTo={'/contact'} />
                 </div>
-                <div class="col-7 col-sm-4 col-md-12">
+                <div className="col-7 col-sm-4 col-md-12">
                   <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='_blank' rel="noreferrer">
                     <BtnTommette lineOne={"RESERVEZ "} lineTwo={"un atelier"} />
                   </a>
@@ -58,12 +58,25 @@ function Home() {
       </section>
 
 
-
+      
       <TitleLined myTitle={"JE PROPOSE"} />
       <section className='home-proposal'>
-        <div class="container text-center">
-          <div class="row justify-content-center">
-            <div class="card col-10 col-sm-5 col-md-3 card-img-1">
+        <div className="container text-center">
+          <div className="row justify-content-center">
+            <CardList />
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      {/* <TitleLined myTitle={"JE PROPOSE"} />
+      <section className='home-proposal'>
+        <div className="container text-center">
+          <div className="row justify-content-center">
+            <div className="card col-10 col-sm-5 col-md-3 card-img-1">
               <Card
               cardImage={IconProposal1}
               title="Ma Carte1"
@@ -71,7 +84,7 @@ function Home() {
               longDesc="Voici une longue description qui apparaîtra lorsque vous cliquerez sur le Dot."
               />
             </div>
-            <div class="card col-10 col-sm-5 col-md-3 order-md-2 card-img-2-3">
+            <div className="card col-10 col-sm-5 col-md-3 order-md-2 card-img-2-3">
               <Card
               cardImage={IconProposal2}
               title="Ma Carte2"
@@ -79,7 +92,7 @@ function Home() {
               longDesc="Voici une longue description qui apparaîtra lorsque vous cliquerez sur le Dot."
               />
             </div>
-            <div class=" card col-10 col-sm-6 order-sm-2 col-md-3 card-img-2-3">
+            <div className=" card col-10 col-sm-6 order-sm-2 col-md-3 card-img-2-3">
               <Card
               cardImage={IconProposal3}
               title="Ma Carte3"
@@ -89,7 +102,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <TitleLined myTitle={"Ils parlent de nous"} />
       <section className='home-links'>
       </section>

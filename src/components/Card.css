@@ -30,15 +30,15 @@ GROSSIR LES DOTS ???
   }
 
 /* .card-dot {
-  cursor: pointer;
   position: absolute;
   bottom: 10px;
   right: 10px;
-} */
+  } */
 
 .card-dot img {
   width: 2vmin;
   margin: 0;
+  cursor: pointer;
 }
 
 /* Transformation pour retourner la carte QUE LE TEXTE ?! */
