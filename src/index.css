@@ -24,9 +24,6 @@ a {
   text-decoration: none;
 }
 
-/* a:hover { ?
-} */
-
 /* Couleurs du site :
   background color : #FDFDF9; => index.css
   Main blue color: #008A95; => MyNavbar.css, MyFooter, TitleLined
@@ -53,6 +50,6 @@ code {
 /* Grands écrans (17 pouces et plus) */
 @media (min-width: 1367px) {
   body, header {
-    width: 50%;
+    width: 60%;
   }
 }

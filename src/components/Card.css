@@ -7,20 +7,33 @@
   box-shadow : 0px 0px 7px rgba(122, 122, 122, .2);
   transition: transform 0.6s ease-in-out;
   backface-visibility: hidden;
-  /* position: relative; */
 }
 
 /* .card:hover {
 GROSSIR LES DOTS ???
 } */
 
+.cardText {
+  margin-top: 1vmin;
+}
+
+.cardTitle {
+  font-size: medium;
+  font-weight: bold;
+  color: #16949e;
+}
+
+.cardText p {
+  margin-bottom: 0;
+}
+
 .card-img-1 img {
-  width: 20%;
-  margin: 1vmin;
+  width: 18%;
+  margin: 2vmin;
 }
 .card-img-2-3 img {
   width: 40%;
-  margin: 1vmin;
+  margin: 2vmin;
 }
   @media (max-width: 576px) {
     .card-img-1 img,
@@ -29,11 +42,10 @@ GROSSIR LES DOTS ???
     }
   }
 
-/* .card-dot {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  } */
+.card-dot {
+width: 100%;
+/* permet au dot d'être à dte avec grid */
+  }
 
 .card-dot img {
   width: 2vmin;

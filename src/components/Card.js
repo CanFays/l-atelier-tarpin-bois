@@ -11,7 +11,7 @@ const Card = ({ title, shortDesc, longDesc, cardImage, parentClasses, isFlipped,
       <div
       className="d-flex flex-column justify-content-between align-items-center">
         <img src={cardImage} alt="Illustration des propositions (meuble, amménagement, etc) de l'atelier" className="card-svg"/>
-        <div>
+        <div className="cardText">
           {isFlipped ? longDesc : (
             <div>
               <h2 className="cardTitle">{title}</h2>
@@ -20,7 +20,8 @@ const Card = ({ title, shortDesc, longDesc, cardImage, parentClasses, isFlipped,
             )
           }
         </div>
-        <div className="card-dot">
+        <div className="card-dot d-flex justify-content-between">
+          <div className="born-to-be-empty"></div>
           <img src={Dots} alt="Appuyer pour plus d'infos !" />
         </div>
       </div>
@@ -34,30 +35,28 @@ const CardList = () => {
   const [flippedIndex, setFlippedIndex] = useState(null);
 
   const cards = [
-    { title: "Card 1",
-      shortDesc: "Short desc 1",
-      longDesc: "Long desc 1",
+    { title: "MEUBLES",
+      shortDesc: "intérieur et extérieur",
+      longDesc: "Conception de table, banquette, buffet, chevet, console, bar, comptoir, etc",
       cardImage: IconProposal1,
       parentClasses: "card col-10 col-sm-5 col-md-3 card-img-1" },
-    { title: "Card 2",
-      shortDesc: "Short desc 2",
-      longDesc: "Long desc 2",
+    { title: "AMMENAGEMENTS",
+      shortDesc: "sur mesure chez particuliers et professionnels",
+      longDesc:  (<>Meuble TV, bibliothèque, dressing<br />-<br />Agencement de boutique, bureau, atelier, etc</>),
       cardImage: IconProposal2,
-      parentClasses: "card col-10 col-sm-5 order-sm-3 col-md-3 order-md-2 card-img-2-3" },
-    { title: "Card 3",
-      shortDesc: "Short desc 3",
-      longDesc: "Long desc 3",
+      parentClasses: "card col-10 col-sm-5 order-sm-3 col-md-4 order-md-2 card-img-2-3" },
+    { title: "ATELIERS",
+      shortDesc: "d'initiation et stages",
+      longDesc: (<>Fabrication de planche à découper, table basse<br />-<br />Apprentissage d’assemblages traditionnels</>),
       cardImage: IconProposal3,
       parentClasses: "card col-10 col-sm-5 order-sm-2 col-md-3 order-md-3 card-img-2-3" },
   ];
 
   const handleCardClick = (index) => {
-    // Si la carte est déjà retournée, on la remet normale
     if (flippedIndex === index) {
       setFlippedIndex(null);
     } else {
       setFlippedIndex(index);
-    // Flipper la carte cliquée et remettre les autres normales
     }
   };
 
@@ -71,14 +70,12 @@ const CardList = () => {
           longDesc={card.longDesc}
           cardImage={card.cardImage}
           parentClasses={card.parentClasses}
-          isFlipped={flippedIndex === index} // Vérifie si la carte doit être flipped
-          onClick={() => handleCardClick(index)} // Gère le clic pour retourner la carte
+          isFlipped={flippedIndex === index}
+          onClick={() => handleCardClick(index)}
         />
       ))}
     </div>
   );
 };
-
-
 
 export default CardList;
