@@ -2,17 +2,14 @@
   text-align: center;
   padding: 10px 20px;
   max-width: 100%; /* S'adapte à la largeur du texte */
+  margin: 1vmin;
   font-size: medium;
   cursor: pointer;
-  text-decoration: none;
   background-color: #FFFFFE;
   color: #A84134;
   border: solid #A84134 1px;
   box-shadow : 5px 5px 0px rgba(168, 65, 52, .6);
-  transition: background-color 0.3s ease;
   display: inline-block;
-  white-space: pre-wrap; /* Permet d'avoir du texte sur une ou plusieurs lignes */
-  word-wrap: break-word; /* Permet de casser le texte en cas de mot trop long */
 }
 
 .btn-tommette:hover {

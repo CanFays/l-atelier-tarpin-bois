@@ -1,7 +1,12 @@
 .title-lined {
   width: 100%;
+  margin-top: 5vmin;
+  margin-bottom: 2vmin;
   display: flex;
   align-items: center;
+}
+#only-it-without-top {
+  margin-top: 0;
 }
 
 .line {
