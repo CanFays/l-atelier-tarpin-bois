@@ -4,18 +4,28 @@ import Dots from "../assets/icons/DotSvgrepo.svg";
 
 const Card = ({ title, shortDesc, longDesc, cardImage }) => {
   const [flipped, setFlipped] = useState(false);
-
-  // Fonction pour gérer le clic sur le dot
-  const handleDotClick = () => {
-    setFlipped(!flipped); // Inverser l'état flipped à chaque clic
+  const handleCardClick = () => {
+    setFlipped(!flipped);
   };
 
   return (
-    <div className={`${flipped ? "flipped" : ""} d-flex flex-column justify-content-between align-items-center`}>
+    <div
+    className={`${flipped ? "flipped" : ""} d-flex flex-column justify-content-between align-items-center`}
+    onClick={handleCardClick}>
       <img src={cardImage} alt="Illustration des propositions (meuble, amménagement, etc) de l'atelier" className="card-svg"/>
-      <h2>{title}</h2>
-      <p>{flipped ? longDesc : shortDesc}</p>
-      <div className="card-dot" onClick={handleDotClick}>
+      <div>
+        {flipped ? longDesc : (
+          <div className="unflipped">
+            <h2 className="cardTitle">{title}</h2>
+            <p>{shortDesc}</p>
+          </div>
+          )
+        }
+
+      </div>
+
+
+      <div className="card-dot d-flex flex-row-reverse">
         <img src={Dots} alt="Appuyer pour plus d'infos !" />
       </div>
     </div>

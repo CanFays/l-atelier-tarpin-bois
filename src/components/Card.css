@@ -1,12 +1,13 @@
 .card {
   margin: 1vmin;
+  max-height: max-content;
   border: 0.5px solid #008A95;
   border-radius: 4px;
   background-color: #FFFFFE;
   box-shadow : 0px 0px 7px rgba(122, 122, 122, .2);
   transition: transform 0.6s ease-in-out;
   backface-visibility: hidden;
-  position: relative;
+  /* position: relative; */
 }
 
 /* .card:hover {
@@ -28,15 +29,16 @@ GROSSIR LES DOTS ???
     }
   }
 
-.card-dot {
+/* .card-dot {
   cursor: pointer;
   position: absolute;
   bottom: 10px;
   right: 10px;
-}
+} */
 
 .card-dot img {
   width: 2vmin;
+  margin: 0;
 }
 
 /* Transformation pour retourner la carte QUE LE TEXTE ?! */
