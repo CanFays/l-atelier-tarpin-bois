@@ -25,3 +25,7 @@ footer, a {
   font-size: large;
   margin: unset;
 }
+
+.footer-infos-down {
+  text-align: end;
+}

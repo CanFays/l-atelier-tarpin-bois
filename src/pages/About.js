@@ -1,11 +1,11 @@
 import React from 'react';
+import {TitleLined} from '../components/TitleLined';
 
 function About() {
   return (
-    <div className="container">
-      <h1>L'Atelier</h1>
-      <p>Découvrez nos services d'ébénisterie et nos engagements environnementaux.</p>
-    </div>
+    <TitleLined myTitle={"VOUS VOULEZ"} />
+
+
   );
 }
 
