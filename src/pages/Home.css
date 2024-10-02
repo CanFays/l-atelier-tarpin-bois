@@ -1,19 +1,6 @@
 .home {
   width: 80%;
 }
-/* ......... Logo ............ */
-.home-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2vmin;
-}
-
-.home-logo img {
-  height: 16vmin;
-  margin: 4vmin;
-}
-
 /* ..................... */
 /* .home-presentation => Boostrap */
 /* ..................... */

@@ -24,7 +24,7 @@ function MyNavbar() {
 
             <Nav className="ms-auto align-items-center">
               <Nav.Link href="/" className='text-white fs-4' >Accueil</Nav.Link>
-              <Nav.Link href="/about" className='text-white fs-4'>L'atelier</Nav.Link>
+              <Nav.Link href="/qui-sommes-nous" className='text-white fs-4'>L'atelier</Nav.Link>
               <Nav.Link href="/contact" className='text-white fs-4'>Contact</Nav.Link>
 
                 <SocialMediaIcons  />

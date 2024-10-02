@@ -1,0 +1,14 @@
+.about {
+  width: 80%; 
+}
+
+.img-presentation {
+  width: 100%;
+}
+
+.float-sm-right {
+  width: fit-content;
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}

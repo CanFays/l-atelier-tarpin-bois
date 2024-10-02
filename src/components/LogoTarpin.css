@@ -1,0 +1,11 @@
+.logo-tarpin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vmin;
+}
+
+.logo-tarpin img {
+  height: 16vmin;
+  margin: 4vmin;
+}

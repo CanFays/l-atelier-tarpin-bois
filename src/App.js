@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -9,12 +9,13 @@ import MyNavbar from './components/MyNavbar';
 import MyFooter from './components/MyFooter';
 import Banner from './components/Banner.js';
 
+function AppContent() {
+  const location = useLocation();
 
-function App() {
   return (
-    <Router>
+    <>
       <MyNavbar />
-      <Banner />
+      {location.pathname === '/' && <Banner />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/qui-sommes-nous" element={<About />} />
@@ -22,6 +23,14 @@ function App() {
         <Route path="/mentions-legales" element={<Disclaimer />} />
       </Routes>
       <MyFooter/>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }

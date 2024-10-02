@@ -1,19 +1,24 @@
 .title-lined {
   width: 100%;
-  margin-top: 5vmin;
+  padding-top: 5vmin;
+  /* !! anciennement margin-top mais déplace la Navbar de About et Contact */
   margin-bottom: 2vmin;
   display: flex;
   align-items: center;
 }
 #only-it-without-top {
-  margin-top: 0;
+  padding-top: 0;
+}
+#padding-to-be-see {
+  padding-top: 16%
+  /* check taille navbar */
 }
 
 .line {
   height: 2px;
   margin: 0 10px;
   background-color: #008A95;
-  flex-grow: 1; /* prend autant d'espace que possible */
+  flex-grow: 1;
 }
 
 .title-text {
