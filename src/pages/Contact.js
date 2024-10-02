@@ -5,6 +5,8 @@ import Map from '../components/Map'
 // import emailjs from 'emailjs-com';
 
 function Contact() {
+  const Tel = "06.98.83.77.31"
+  const Mail = "ben.paret@gmail.com"
   const form = useRef();
 
   // const sendEmail = (e) => {
@@ -26,17 +28,15 @@ function Contact() {
     <div className="container contact">
       <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} />
       <section className='text'>
-        <h4>
-        Vous avez une question, souhaitez réaliser un projet personnel, faire une demande de devis ?
+        <h4>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
         </h4>
-        <p>
-        Vous pouvez nous contacter au 06.09.09.09.09
-        ou par mail : tarpinbois@cool.com
+        <br />
+        <p>Vous pouvez nous contacter au {Tel}
+        ou par mail : {Mail}.
         </p>
       </section>
       <section className='form'>
-        <p>
-        Vous avez également la possibilité de nous envoyer un message directement :
+        <p>Vous avez également la possibilité de nous envoyer un message directement :
         </p>
       {/* <form ref={form} onSubmit={sendEmail}> */}
         <form ref={form} onSubmit={'sendEmail à faire'}>
@@ -55,21 +55,38 @@ function Contact() {
           <button type="submit" className="btn btn-primary">Envoyer</button>
         </form>
       </section>
+      <TitleLined myTitle={"Ateliers et stages"} />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong> ? <br /> La réservation se fait sur Wecandoo, c’est par
-          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noreferrer"> ici !</a>
+          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noreferrer"><em> ici </em>! </a>
+        </p>
+        <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>
       </section>
+      <TitleLined myTitle={"Venir à l'atelier"} />
       <section className="map">
-        <p>Et l’atelier, c’est par là !</p>
-        <div className='d-flex justify-content-center'>
-          <div className='map'>
+      <div class="container text-start">
+        <div class="row justify-content-evenly">
+          <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-4">
             <Map />
           </div>
-          <div className='adress'>
+          <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-4">
+            <p>C’est par là !</p>
             <p>3 Bd Adrien Rousseau, <br />13011 Marseille <br /><br /> L'atelier est accessible en voiture, en train ou bus 80, arrêt St-Marcel.</p>
           </div>
         </div>
+      </div>
+
+
+
+
+        {/* <div className='d-flex justify-content-center'>
+          <div className='map'>
+          </div>
+          <div className='adress'>
+          </div>
+        </div> */}
+
       </section>
     </div>
   );
