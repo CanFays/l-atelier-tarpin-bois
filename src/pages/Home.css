@@ -1,7 +1,7 @@
 .home {
   width: 80%;
 }
-/* ..................... */
+/* ......... Logo ............ */
 .home-logo {
   display: flex;
   justify-content: center;
@@ -18,6 +18,22 @@
 /* .home-presentation => Boostrap */
 /* ..................... */
 /* .home-research => Boostrap  */
+.home-research ul {
+  list-style: none; /* Enlève les puces par défaut */
+}
+
+.home-research ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.home-research ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #16949e;
+}
+
 /* ..................... */
 /* .home-proposal => Card.css + Bootsrap responsive */
 /* ..................... */

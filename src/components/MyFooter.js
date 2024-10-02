@@ -14,7 +14,8 @@ function MyFooter() {
             <SocialMediaIcons />
           </div>
           <div className="footer-infos-down">
-            <Link to="/mentions-legales">Mentions légales</Link>
+            <Link to="/mentions-legales">Mentions légales</Link> <br/>
+            <p>©2024 | Tous droits réservés</p>
           </div>
         </div>
     </footer>
