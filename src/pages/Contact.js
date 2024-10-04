@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './Contact.css'
+import '../components/BtnTommette.css'
 import TitleLined from '../components/TitleLined';
 import Map from '../components/Map'
 // import emailjs from 'emailjs-com';
@@ -52,7 +53,7 @@ function Contact() {
             <label htmlFor="message" className="form-label">Message</label>
             <textarea className="form-control" id="message" rows="4" name="message" required></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">Envoyer</button>
+          <button type="submit" className="btn btn-tommette">Envoyer</button>
         </form>
       </section>
       <TitleLined myTitle={"Ateliers et stages"} />
@@ -67,12 +68,12 @@ function Contact() {
       <section className="map">
       <div class="container text-start">
         <div class="row justify-content-evenly">
-          <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-4">
+          <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-5">
             <Map />
           </div>
-          <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-4">
+          <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
             <p>C’est par là !</p>
-            <p>3 Bd Adrien Rousseau, <br />13011 Marseille <br /><br /> L'atelier est accessible en voiture, en train ou bus 80, arrêt St-Marcel.</p>
+            <p>3 Bd Adrien Rousseau, <br />13011 Marseille <br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
           </div>
         </div>
       </div>

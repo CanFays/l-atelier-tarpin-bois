@@ -1,5 +1,5 @@
 .about {
-  width: 80%; 
+  width: 80%;
 }
 
 .img-presentation {
@@ -11,4 +11,9 @@
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
+}
+
+.title-commitment {
+  color:#A84134;
+  font-size: larger
 }
