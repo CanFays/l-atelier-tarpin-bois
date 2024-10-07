@@ -7,7 +7,7 @@ import Map from '../components/Map'
 
 function Contact() {
   const Tel = "06.98.83.77.31"
-  const Mail = "ben.paret@gmail.com"
+  const Mail = "tarpinbois@gmail.com"
   const form = useRef();
 
   // const sendEmail = (e) => {

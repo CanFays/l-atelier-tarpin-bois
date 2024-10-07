@@ -22,7 +22,8 @@
 }
 
 .title-text {
-  font-weight: bold;
+  font-family: 'AlbertSans';
+  font-weight: 600;
   font-size: larger;
   color: #008A95;
   white-space: nowrap;

@@ -3,7 +3,8 @@
   padding: 10px 20px;
   max-width: 100%; /* S'adapte à la largeur du texte - exception dans .mosaic */
   margin: 1vmin;
-  font-size: medium;
+  font-family: 'AlbertSans';
+  font-weight: 600;
   cursor: pointer;
   background-color: #FFFFFE;
   color: #a84134;

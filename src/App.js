@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './index.css';
+import '../src/assets/fonts/fonts.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
