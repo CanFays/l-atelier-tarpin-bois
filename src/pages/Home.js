@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import '../components/Card.css';
 import BtnTommette from '../components/BtnTommette';
 import TitleLined from '../components/TitleLined';
 import CardList from '../components/Card';
@@ -58,7 +59,15 @@ function Home() {
         </div>
       </section>
       <TitleLined myTitle={"Ils parlent de nous"} />
-      <section className='home-links'>
+      <section className='home-links d-flex justify-content-evenly align-items-stretch'>
+        <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" className='col-5 card p-3'>
+          <div className="cardTitle mb-2">'Rencontre avec Tarpin Bois'</div>
+          <div className="fst-italic">amandine-marvin.fr</div>
+        </a>
+        <a href="https://wecandoo.fr/atelier/fabrication-table-basse-bois-marseille" className='col-5 card p-3'>
+          <div className="cardTitle mb-2">Section 'commentaires' des ateliers</div>
+          <div className="fst-italic">wecandoo.fr</div>
+        </a>
       </section>
     </main>
   );

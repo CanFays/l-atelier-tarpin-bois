@@ -9,10 +9,6 @@
   backface-visibility: hidden;
 }
 
-/* .card:hover {
-GROSSIR LES DOTS ???
-} */
-
 .cardText {
   margin-top: 1vmin;
 }
@@ -53,12 +49,10 @@ width: 100%;
   cursor: pointer;
 }
 
-/* Transformation pour retourner la carte QUE LE TEXTE ?! */
 .card.flipped {
   transform: rotateY(180deg);
 }
 
-/* Styles pour le SVG Dot */
 .card-dot svg {
   fill: #008A95;
   transition: fill 0.3s ease;
