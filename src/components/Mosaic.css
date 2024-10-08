@@ -1,0 +1,23 @@
+.mosaic-component {
+  margin: 6vmin 0 2vmin;
+  background-color:#FFFFFE;
+}
+
+.mosaic-item {
+  padding: 4px;
+  max-width: 200px;
+  position: relative;
+}
+
+.mosaic-img {
+  width: 100%;
+  height: auto;
+}
+
+.mosaic-icon {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  width: 10px;
+  height: 15px;
+}

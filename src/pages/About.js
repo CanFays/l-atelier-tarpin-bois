@@ -9,7 +9,7 @@ function About() {
       <TitleLined myTitle={"Tarpin bois qu’es aquò ?"} id={"padding-to-be-see"} />
       <section className='about-presentation'>
         <div class="container">
-          <div class="row justify-content-between">
+          <div class="row justify-content-between align-items-center">
             <div class="col-11 order-md-2 col-md-5 mb-4">
               <img src={Igor} alt="Benjamin Paret" className='img-presentation'/>
             </div>

@@ -5,6 +5,9 @@ import BtnTommette from '../components/BtnTommette';
 import TitleLined from '../components/TitleLined';
 import CardList from '../components/Card';
 import LogoTarpin from '../components/LogoTarpin';
+import Mosaic from '../components/Mosaic';
+
+
 
 function Home() {
   return (
@@ -52,7 +55,7 @@ function Home() {
           </div>
         </div>
         <div className="mosaic text-center">
-
+          <Mosaic />
           <a href="https://www.instagram.com/latelier_tarpin_bois/" target='_blank' rel="noreferrer">
             <BtnTommette lineOne={"Suivez-nous sur Instagram !"} addIcon={true}/>
           </a>

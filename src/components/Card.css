@@ -49,10 +49,6 @@ width: 100%;
   cursor: pointer;
 }
 
-.card.flipped {
-  transform: rotateY(180deg);
-}
-
 .card-dot svg {
   fill: #008A95;
   transition: fill 0.3s ease;
@@ -60,4 +56,8 @@ width: 100%;
 
 .card-dot:hover svg {
   fill: #067078;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
 }
