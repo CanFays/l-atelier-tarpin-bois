@@ -14,7 +14,6 @@ body, #root {
   margin-right: auto;
   background-color: #FDFDF9;
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  /* font-family: "Comic Sans MS", "Comic Sans"; */
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,19 +24,33 @@ body strong {
   font-weight: 700;
 }
 
+/* Couleurs du site :
+background color : #FDFDF9; => index.css
+Main blue color: #008A95; => MyNavbar.css, MyFooter, TitleLined
+Btn tommette color: #A84134;
+background-components color: #FFFFFE; */
+
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 
-/* Couleurs du site :
-  background color : #FDFDF9; => index.css
-  Main blue color: #008A95; => MyNavbar.css, MyFooter, TitleLined
-  Btn tomette color: #A84134; =>
-  background-components color: #FFFFFE; => */
+.nicer-dots ul {
+  list-style: none; /* Enlève les puces par défaut */
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nicer-dots ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.nicer-dots ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #16949e;
 }
 
 /* Tablettes */

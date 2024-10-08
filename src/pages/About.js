@@ -22,7 +22,7 @@ function About() {
         </div>
       </section>
       <TitleLined myTitle={"Nos engagements"} />
-      <section className='commitment'>
+      <section className='commitment nicer-dots'>
         <p>Soucieux et conscient des enjeux environnementaux et sociaux (ou humains) de notre époque, il nous tient à coeur de :</p>
         <ul>
           <li><span className='title-commitment'>privilégier les circuits courts</span>  :<br />

@@ -20,7 +20,7 @@ function Home() {
       <section className='home-research'>
         <div className="container text-center">
           <div className="row">
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-8 nicer-dots">
               <ul className='text-start'>
                 <li>vous offrir du <strong>mobilier unique</strong>, durable, en bois massif</li>
                 <li>agencer votre appartement de manière <strong>optimale</strong> et <strong>personnalisée</strong>, sans trouver de solution auprès des grandes enseignes</li>

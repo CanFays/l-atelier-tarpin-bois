@@ -8,6 +8,12 @@ import Map from '../components/Map'
 function Contact() {
   const Tel = "06.98.83.77.31"
   const Mail = "tarpinbois@gmail.com"
+  const Address = (
+    <>
+      3 Bd Adrien Rousseau, <br />
+      13011 Marseille
+    </>
+  );
   const form = useRef();
 
   // const sendEmail = (e) => {
@@ -32,9 +38,7 @@ function Contact() {
         <h4>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
         </h4>
         <br />
-        <p>Vous pouvez nous contacter au {Tel}
-        ou par mail : {Mail}.
-        </p>
+        <p>Vous pouvez nous contacter au {Tel} ou par mail : {Mail}.</p>
       </section>
       <section className='form'>
         <p>Vous avez également la possibilité de nous envoyer un message directement :
@@ -59,8 +63,8 @@ function Contact() {
       <TitleLined myTitle={"Ateliers et stages"} />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong> ? <br /> La réservation se fait sur Wecandoo, c’est par
-          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noreferrer"><em> ici </em>! </a>
-        </p>
+          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noreferrer"><em> ici  </em></a>
+        ! </p>
         <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>
       </section>
@@ -73,7 +77,7 @@ function Contact() {
           </div>
           <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
             <p>C’est par là !</p>
-            <p>3 Bd Adrien Rousseau, <br />13011 Marseille <br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
+            <p>{Address}<br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
           </div>
         </div>
       </div>
