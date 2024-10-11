@@ -13,7 +13,7 @@ function Home() {
   return (
     <main className="container home">
       <LogoTarpin />
-      <TitleLined myTitle={"Tarpin bois qu’es aquò ?"} id={"only-it-without-top"} />
+      <TitleLined myTitle={"TARPIN BOIS QU’ES AQUÒ ?"} id={"only-it-without-top"} />
       <section className='home-presentation'>
         <p>Je suis <strong>Benjamin Paret</strong> , dit Igor : Ben c’est le boss, Igor celui qui bosse ! Passionné par le bois depuis toujours, j'ai longtemps pratiqué la menuiserie en autodidacte, avant de me lancer dans la belle aventure de l'<strong>ébénisterie</strong>.<br /><br />Soucieux et conscient des enjeux environnementaux et sociaux (ou humains) de notre époque, il me tient à coeur d’être <strong>à votre écoute</strong>, de privilégier les <strong>circuits courts</strong>, de proposer des <strong>bois français</strong> et de <strong>valoriser les  déchets</strong> de l’atelier.</p>
         <div className="d-flex justify-content-center">
@@ -56,12 +56,12 @@ function Home() {
         </div>
         <div className="mosaic text-center">
           <Mosaic />
-          <a href="https://www.instagram.com/latelier_tarpin_bois/" target='_blank' rel="noreferrer">
+          <a href="https://www.instagram.com/tarpin_bois/" target='_blank' rel="noreferrer">
             <BtnTommette lineOne={"Suivez-nous sur Instagram !"} addIcon={true}/>
           </a>
         </div>
       </section>
-      <TitleLined myTitle={"Ils parlent de nous"} />
+      <TitleLined myTitle={"ILS PARLENT DE NOUS"} />
       <section className='home-links d-flex justify-content-evenly align-items-stretch'>
         <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" className='col-5 card p-3'>
           <div className="cardTitle mb-2">'Rencontre avec Tarpin Bois'</div>

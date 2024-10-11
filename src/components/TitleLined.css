@@ -1,8 +1,8 @@
 .title-lined {
   width: 100%;
-  padding-top: 5vmin;
+  padding-top: 8vmin;
   /* !! anciennement margin-top mais déplace la Navbar de About et Contact */
-  margin-bottom: 2vmin;
+  margin-bottom: 4vmin;
   display: flex;
   align-items: center;
 }
@@ -24,7 +24,7 @@
 .title-text {
   font-family: 'AlbertSans';
   font-weight: 600;
-  font-size: larger;
+  font-size: large;
   color: #008A95;
   white-space: nowrap;
 }

@@ -8,7 +8,7 @@ const SocialMediaIcons = () => {
 
   return (
     <div>
-      <a href="https://www.instagram.com/latelier_tarpin_bois/" target='_blank' rel="noreferrer">
+      <a href="https://www.instagram.com/tarpin_bois" target='_blank' rel="noreferrer">
         <img src={InstaIcon} className="social-icon" alt="Page Instagram de L'Atelier Tarpin Bois" />
       </a>
       <a href="https://www.facebook.com/l.atelier.tarpin.bois" target='_blank' rel="noreferrer">

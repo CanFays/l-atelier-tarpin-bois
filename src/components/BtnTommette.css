@@ -2,7 +2,7 @@
   text-align: center;
   padding: 10px 20px;
   max-width: 100%; /* S'adapte à la largeur du texte - exception dans .mosaic */
-  margin: 1vmin;
+  margin: 2vmin 1vmin;
   font-family: 'AlbertSans';
   font-weight: 600;
   cursor: pointer;
