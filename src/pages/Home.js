@@ -35,11 +35,11 @@ function Home() {
             <div className="col-md-4">
               <div className="row justify-content-center">
                 <div className="col-7 col-sm-4 col-md-12">
-                  <BtnTommette lineOne={"DEMANDEZ"}  lineTwo={"un devis"} linkTo={'/contact'} />
+                  <BtnTommette lineOne={"DEMANDER"}  lineTwo={"un devis"} linkTo={'/contact'} />
                 </div>
                 <div className="col-7 col-sm-4 col-md-12">
-                  <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='_blank' rel="noreferrer">
-                    <BtnTommette lineOne={"RESERVEZ "} lineTwo={"un atelier"} />
+                  <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='_blank' rel="noopener">
+                    <BtnTommette lineOne={"RESERVER "} lineTwo={"un atelier"} />
                   </a>
                 </div>
               </div>
@@ -67,7 +67,7 @@ function Home() {
           <div className="cardTitle mb-2">'Rencontre avec Tarpin Bois'</div>
           <div className="fst-italic">amandine-marvin.fr</div>
         </a>
-        <a href="https://wecandoo.fr/atelier/fabrication-table-basse-bois-marseille" className='col-5 card p-3'>
+        <a href="https://wecandoo.fr/atelier/fabrication-table-basse-bois-marseille" className='col-5 card p-3' target='blank' rel="noopener">
           <div className="cardTitle mb-2">Section 'commentaires' des ateliers</div>
           <div className="fst-italic">wecandoo.fr</div>
         </a>

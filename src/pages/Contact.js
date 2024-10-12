@@ -63,7 +63,7 @@ function Contact() {
       <TitleLined myTitle={"Ateliers et stages"} />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong> ? <br /> La réservation se fait sur Wecandoo, c’est par
-          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noreferrer"><em> ici  </em></a>
+          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noopener"><em> ici  </em></a>
         ! </p>
         <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>

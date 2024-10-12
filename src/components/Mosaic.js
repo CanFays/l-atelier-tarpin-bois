@@ -13,7 +13,7 @@ const Mosaic = () => {
     <div className="mosaic-component container">
       <div className="row d-flex justify-content-evenly">
         {imageList.map((image, index) => (
-          <div className="mosaic-item col-5 col-sm-4 col-lg-3">
+          <div className="mosaic-item col-5 col-sm-4 col-md-3">
             <img key={index}
             className="mosaic-img"
             src={image}

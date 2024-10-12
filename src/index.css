@@ -1,4 +1,10 @@
-/* Global : body (et ses media queries), links, couleurs, polices */
+/* Global : body (et media queries), a, couleurs, polices, strong, dots, credits */
+
+/* Couleurs du site :
+background-site color : #FDFDF9;
+Main blue color: #008A95;
+Btn tommette color: #A84134;
+background-components color: #FFFFFE; */
 
 html {
   height: max-content;
@@ -24,11 +30,10 @@ body strong {
   font-weight: 700;
 }
 
-/* Couleurs du site :
-background color : #FDFDF9; => index.css
-Main blue color: #008A95; => MyNavbar.css, MyFooter, TitleLined
-Btn tommette color: #A84134;
-background-components color: #FFFFFE; */
+.credits {
+  color: lightgray;
+  font-size: small;
+}
 
 a {
   text-decoration: none;
@@ -38,7 +43,7 @@ a:hover {
 }
 
 .nicer-dots ul {
-  list-style: none; /* Enlève les puces par défaut */
+  list-style: none;
 }
 
 .nicer-dots ul li {
