@@ -57,14 +57,6 @@ width: 100%;
   transition: fill 0.3s ease;
 }
 
-.card-dot:hover svg {
-  fill: #067078;
-}
-
-.card.flipped {
-  transform: rotateY(180deg);
-}
-
-unwrap-content {
-  max-height: none;
+.card a {
+  color: #008A95;
 }

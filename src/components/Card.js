@@ -47,7 +47,11 @@ const CardList = () => {
       parentClasses: "card interactiv-card col-10 col-sm-5 order-sm-3 col-md-4 order-md-2 card-img-2-3" },
     { title: "ATELIERS",
       shortDesc: "d'initiation et stages",
-      longDesc: (<>Fabrication de planche à découper, table basse<br />-<br />Apprentissage d’assemblages traditionnels</>),
+      longDesc: (<>Fabrication de
+                <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/433c7cbc-746c-4f71-9512-b08d150e2ef0/book" target='blank'> planche à découper</a>,
+                <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/40fa28c1-17b7-419d-b174-93f81b1f2bab/book" target='blank'> table basse</a>
+                <br />-<br />Apprentissage d’
+                <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/8db60f61-88e9-4a6b-823a-6557d3a27067/book" target='blank'>assemblages traditionnels</a></>),
       cardImage: IconProposal3,
       parentClasses: "card interactiv-card col-10 col-sm-5 order-sm-2 col-md-3 order-md-3 card-img-2-3" },
   ];

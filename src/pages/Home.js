@@ -38,9 +38,7 @@ function Home() {
                   <BtnTommette lineOne={"DEMANDER"}  lineTwo={"un devis"} linkTo={'/contact'} />
                 </div>
                 <div className="col-7 col-sm-4 col-md-12">
-                  <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='_blank' rel="noopener">
-                    <BtnTommette lineOne={"RESERVER "} lineTwo={"un atelier"} />
-                  </a>
+                  <BtnTommette lineOne={"RESERVER "} lineTwo={"un atelier"} linkTo={'/contact'} anchor={'atelier'} />
                 </div>
               </div>
             </div>

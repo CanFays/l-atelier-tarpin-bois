@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+// import React, { useRef } from 'react';
 import './Contact.css'
 import '../components/BtnTommette.css'
 import TitleLined from '../components/TitleLined';
@@ -14,7 +14,7 @@ function Contact() {
       13011 Marseille
     </>
   );
-  const form = useRef();
+  // const form = useRef();
 
   // const sendEmail = (e) => {
   //   e.preventDefault();
@@ -33,14 +33,14 @@ function Contact() {
 
   return (
     <div className="container contact">
-      {/* <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} /> */}
-      {/* <section className='text'>
-        <h4>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
-        </h4>
+      <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} />
+      <section className='text'>
+        <h5>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
+        </h5>
         <br />
-        <p>Vous pouvez nous contacter au {Tel} ou par mail : {Mail}.</p>
+        <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
       </section>
-      <section className='form'>
+      {/* <section className='form'>
         <p>Vous avez également la possibilité de nous envoyer un message directement :
         </p> */}
       {/* <form ref={form} onSubmit={sendEmail}> */}
@@ -60,11 +60,13 @@ function Contact() {
           <button type="submit" className="btn btn-tommette">Envoyer</button>
         </form>
       </section> */}
-      {/* <TitleLined myTitle={"Ateliers et stages"} /> */}
-      <section className="atelier">
-        <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong> ? <br /> La réservation se fait sur Wecandoo, c’est par
-          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noopener"><em> ici  </em></a>
-        ! </p>
+      <TitleLined myTitle={"Ateliers et stages"} />
+      <section className="atelier" id="atelier">
+        <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> A faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
+          <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/40fa28c1-17b7-419d-b174-93f81b1f2bab/book" target='blank'>  Table basse  </a> |
+          <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/433c7cbc-746c-4f71-9512-b08d150e2ef0/book" target='blank'>  Planche à découper </a> |
+          <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/8db60f61-88e9-4a6b-823a-6557d3a27067/book" target='blank'>  Assemblages traditionnels</a>
+        </p>
         <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>
       </section>
