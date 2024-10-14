@@ -33,8 +33,8 @@ function Contact() {
 
   return (
     <div className="container contact">
-      <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} />
-      <section className='text'>
+      {/* <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} /> */}
+      {/* <section className='text'>
         <h4>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
         </h4>
         <br />
@@ -42,9 +42,9 @@ function Contact() {
       </section>
       <section className='form'>
         <p>Vous avez également la possibilité de nous envoyer un message directement :
-        </p>
+        </p> */}
       {/* <form ref={form} onSubmit={sendEmail}> */}
-        <form ref={form} onSubmit={'sendEmail à faire'}>
+        {/* <form ref={form} onSubmit={'sendEmail à faire'}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">Nom</label>
             <input type="text" className="form-control" id="name" name="user_name" required />
@@ -59,8 +59,8 @@ function Contact() {
           </div>
           <button type="submit" className="btn btn-tommette">Envoyer</button>
         </form>
-      </section>
-      <TitleLined myTitle={"Ateliers et stages"} />
+      </section> */}
+      {/* <TitleLined myTitle={"Ateliers et stages"} /> */}
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong> ? <br /> La réservation se fait sur Wecandoo, c’est par
           <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target="_blank" rel="noopener"><em> ici  </em></a>
@@ -70,28 +70,17 @@ function Contact() {
       </section>
       <TitleLined myTitle={"Venir à l'atelier"} />
       <section className="map">
-      <div class="container text-start">
-        <div class="row justify-content-evenly">
-          <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-5">
-            <Map />
-          </div>
-          <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
-            <p>C’est par là !</p>
-            <p>{Address}<br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
+        <div class="container text-start">
+          <div class="row justify-content-evenly">
+            <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-5">
+              <Map />
+            </div>
+            <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
+              <p>C’est par là !</p>
+              <p>{Address}<br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
+            </div>
           </div>
         </div>
-      </div>
-
-
-
-
-        {/* <div className='d-flex justify-content-center'>
-          <div className='map'>
-          </div>
-          <div className='adress'>
-          </div>
-        </div> */}
-
       </section>
     </div>
   );

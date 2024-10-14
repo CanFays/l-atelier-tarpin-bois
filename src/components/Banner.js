@@ -3,7 +3,7 @@ import BannerImg from "../assets/images/Banner2.webp";
 
 function Banner() {
   return (
-    <section className="banner">
+    <section className="banner" >
       <img src={BannerImg} width="100%" alt="Benjamin Paret, ébéniste de L'Atelier Tarpin Bois, en plein travail"/>
     </section>
   );

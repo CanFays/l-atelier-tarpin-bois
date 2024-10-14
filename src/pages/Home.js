@@ -17,13 +17,13 @@ function Home() {
       <section className='home-presentation'>
         <p>Je suis <strong>Benjamin Paret</strong> , dit Igor : Ben c’est le boss, Igor celui qui bosse ! Passionné par le bois depuis toujours, j'ai longtemps pratiqué la menuiserie en autodidacte, avant de me lancer dans la belle aventure de l'<strong>ébénisterie</strong>.<br /><br />Soucieux et conscient des enjeux environnementaux et sociaux (ou humains) de notre époque, il me tient à coeur d’être <strong>à votre écoute</strong>, de privilégier les <strong>circuits courts</strong>, de proposer des <strong>bois français</strong> et de <strong>valoriser les  déchets</strong> de l’atelier.</p>
         <div className="d-flex justify-content-center">
-          <BtnTommette lineOne={"Découvrez l'atelier et nos engagements"} linkTo={'/about'} />
+          <BtnTommette lineOne={"Découvrez l'atelier et nos engagements"} linkTo={'/qui-sommes-nous'} />
         </div>
       </section>
       <TitleLined myTitle={"VOUS VOULEZ"} />
       <section className='home-research'>
         <div className="container text-center">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-12 col-md-8 nicer-dots">
               <ul className='text-start'>
                 <li>vous offrir du <strong>mobilier unique</strong>, durable, en bois massif</li>
@@ -63,7 +63,7 @@ function Home() {
       </section>
       <TitleLined myTitle={"ILS PARLENT DE NOUS"} />
       <section className='home-links d-flex justify-content-evenly align-items-stretch'>
-        <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" className='col-5 card p-3'>
+        <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" target='blank' className='col-5 card p-3'>
           <div className="cardTitle mb-2">'Rencontre avec Tarpin Bois'</div>
           <div className="fst-italic">amandine-marvin.fr</div>
         </a>

@@ -39,17 +39,17 @@ const CardList = () => {
       shortDesc: "intérieur et extérieur",
       longDesc: "Conception de table, banquette, buffet, chevet, console, bar, comptoir, etc",
       cardImage: IconProposal1,
-      parentClasses: "card col-10 col-sm-5 col-md-3 card-img-1" },
+      parentClasses: "card interactiv-card col-10 col-sm-5 col-md-3 card-img-1" },
     { title: "AMMENAGEMENTS",
       shortDesc: "sur mesure chez particuliers et professionnels",
       longDesc:  (<>Meuble TV, bibliothèque, dressing<br />-<br />Agencement de boutique, bureau, atelier, etc</>),
       cardImage: IconProposal2,
-      parentClasses: "card col-10 col-sm-5 order-sm-3 col-md-4 order-md-2 card-img-2-3" },
+      parentClasses: "card interactiv-card col-10 col-sm-5 order-sm-3 col-md-4 order-md-2 card-img-2-3" },
     { title: "ATELIERS",
       shortDesc: "d'initiation et stages",
       longDesc: (<>Fabrication de planche à découper, table basse<br />-<br />Apprentissage d’assemblages traditionnels</>),
       cardImage: IconProposal3,
-      parentClasses: "card col-10 col-sm-5 order-sm-2 col-md-3 order-md-3 card-img-2-3" },
+      parentClasses: "card interactiv-card col-10 col-sm-5 order-sm-2 col-md-3 order-md-3 card-img-2-3" },
   ];
 
   const handleCardClick = (index) => {
