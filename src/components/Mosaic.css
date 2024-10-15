@@ -1,6 +1,9 @@
 .mosaic-component {
   margin: 6vmin 0 2vmin;
-  background-color:#FFFFFE;
+  padding: 2vh 4vw;
+  background-image: url(../assets/images/bg-meteor.svg);
+  box-shadow: inset -12px -8px 40px #30a0a829;
+  border-radius: 12px;
 }
 
 .mosaic-item {
