@@ -8,10 +8,22 @@ const BtnTommette = ({lineOne, linkTo, lineTwo, addIcon, anchor}) => {
     window.scrollTo(0, 0);
   };
 
+  const handleAnchor = () => {
+    setTimeout(() => {
+      const element = document.getElementById(anchor);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        window.scrollBy(0, -window.innerHeight * 0.04);
+      } else {
+        console.error('Element with id:', anchor, 'not found');
+      }
+    }, 0);
+  };
+
   return (
     linkTo ? (
-      <Link to={anchor ? `${linkTo}#${anchor}` : linkTo}
-      onClick={!anchor ? handleClick : undefined}
+      <Link to={linkTo}
+      onClick={anchor ? handleAnchor : handleClick}
       className="btn-tommette">
         {lineOne}
         {lineTwo && <br />}

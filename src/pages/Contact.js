@@ -40,6 +40,7 @@ function Contact() {
         <br />
         <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
       </section>
+      <div>lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br /></div>
       {/* <section className='form'>
         <p>Vous avez également la possibilité de nous envoyer un message directement :
         </p> */}
@@ -62,7 +63,7 @@ function Contact() {
       </section> */}
       <TitleLined myTitle={"Ateliers et stages"} />
       <section className="atelier" id="atelier">
-        <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> A faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
+        <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> À faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/40fa28c1-17b7-419d-b174-93f81b1f2bab/book" target='blank'>  Table basse  </a> |
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/433c7cbc-746c-4f71-9512-b08d150e2ef0/book" target='blank'>  Planche à découper </a> |
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/8db60f61-88e9-4a6b-823a-6557d3a27067/book" target='blank'>  Assemblages traditionnels</a>
@@ -72,12 +73,12 @@ function Contact() {
       </section>
       <TitleLined myTitle={"Venir à l'atelier"} />
       <section className="map">
-        <div class="container text-start">
-          <div class="row justify-content-evenly">
-            <div class="order-2 col-10 order-sm-1 col-sm-6 col-xl-5">
+        <div className="container text-start">
+          <div className="row justify-content-evenly">
+            <div className="order-2 col-10 order-sm-1 col-sm-6 col-xl-5">
               <Map />
             </div>
-            <div class="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
+            <div className="order-1 col-10 order-sm-2 col-sm-6 col-xl-6">
               <p>C’est par là !</p>
               <p>{Address}<br /><br /> L'atelier est accessible en voiture, en train (gare St-Marcel) ou bus 50.</p>
             </div>

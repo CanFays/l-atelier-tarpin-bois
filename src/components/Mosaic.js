@@ -18,14 +18,12 @@ const Mosaic = () => {
             className="mosaic-img"
             src={image}
             alt={`Création ${index + 1} de Tarpin Bois`} />
-            <img class="mosaic-icon" src={InstaCarousel} alt="Instagram carousel" />
+            <img className="mosaic-icon" src={InstaCarousel} alt="Instagram carousel" />
           </div>
         ))}
       </div>
     </div>
   );
 }
-
-
 
 export default Mosaic;

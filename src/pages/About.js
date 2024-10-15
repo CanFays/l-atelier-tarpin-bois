@@ -8,15 +8,15 @@ function About() {
     <div className='container about'>
       <TitleLined myTitle={"Tarpin bois qu’es aquò ?"} id={"padding-to-be-see"} />
       <section className='about-presentation'>
-        <div class="container">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-11 order-md-2 col-md-5 mb-4">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-11 order-md-2 col-md-5 mb-4">
               <figure>
                 <img src={Igor} alt="Portrait de Benjamin Paret" className='img-presentation'/>
                 <figcaption className='credits'><i>© crédit photo : amandine-marvin.fr</i></figcaption>
               </figure>
             </div>
-            <div class="col-11 order-md-1 col-md-6">
+            <div className="col-11 order-md-1 col-md-6">
               <p>Je suis <strong>Benjamin Paret</strong> , dit Igor : Ben c’est le boss, Igor celui qui bosse ! Passionné par le bois depuis toujours, j'ai longtemps pratiqué la menuiserie en autodidacte, avant de me lancer dans la belle aventure de l'<strong>ébénisterie</strong>. <br /><br />À la suite de ma formation professionnelle, j'ai créé "L'Atelier Tarpin Bois", encouragé et soutenu par mon mentor <strong>Christophe Claeys</strong>. Une belle rencontre humaine, qui a permis à L'ATB de trouver sa place dans un atelier partagé, à deux pas de la gare Saint-Marcel.
               Installés dans les locaux de l'association <strong>Les Copeaux Marseillais</strong>, nous portons des valeurs d'écoute et de partage.
               </p>

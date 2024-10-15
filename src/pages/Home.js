@@ -38,7 +38,7 @@ function Home() {
                   <BtnTommette lineOne={"DEMANDER"}  lineTwo={"un devis"} linkTo={'/contact'} />
                 </div>
                 <div className="col-7 col-sm-4 col-md-12">
-                  <BtnTommette lineOne={"RESERVER "} lineTwo={"un atelier"} linkTo={'/contact'} anchor={'atelier'} />
+                  <BtnTommette lineOne={"RESERVER "} lineTwo={"un atelier"} linkTo={'/contact'} anchor={"atelier"} />
                 </div>
               </div>
             </div>
