@@ -53,8 +53,8 @@ function Home() {
           </div>
         </div>
         <div className="mosaic text-center">
-          <Mosaic />
           <a href="https://www.instagram.com/tarpin_bois/" target='_blank' rel="noreferrer">
+            <Mosaic />
             <BtnTommette lineOne={"Suivez-nous sur Instagram !"} addIcon={true}/>
           </a>
         </div>

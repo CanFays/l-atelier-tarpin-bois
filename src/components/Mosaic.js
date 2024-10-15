@@ -13,15 +13,15 @@ const Mosaic = () => {
       <div className="row d-flex justify-content-evenly">
         {imageList.map((image, index) => (
           <>
-          <div key={index + 1} className="mosaic-item col-5 col-sm-4 col-md-3">
-            <img className="mosaic-img"
-                 src={image}
-                 alt={`Création ${index + 1} de Tarpin Bois`} />
-            <img className="mosaic-icon" src={InstaCarousel} alt="Instagram carousel" />
-          </div>
-          {(index === 4) && <div className="w-100 d-sm-block d-md-none"></div>}
+            <div key={index + 1} className="mosaic-item col-5 col-sm-4 col-md-3">
+              <img className="mosaic-img"
+                  src={image}
+                  alt={`Création ${index + 1} de Tarpin Bois`} />
+              <img className="mosaic-icon" src={InstaCarousel} alt="Instagram carousel" />
+            </div>
+            {/* sauter la ligne après une certaine photo pour une taille d'écran : */}
+            {(index === 4) && <div className="w-100 d-sm-block d-md-none"></div>}
           </>
-
         ))}
       </div>
     </div>

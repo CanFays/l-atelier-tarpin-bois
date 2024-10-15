@@ -2,8 +2,10 @@
   margin: 6vmin 0 2vmin;
   padding: 2vh 4vw;
   background-image: url(../assets/images/bg-meteor.svg);
+  background-size: 100%;
   box-shadow: inset -12px -8px 40px #30a0a829;
   border-radius: 12px;
+  cursor: default;
 }
 
 .mosaic-item {
@@ -23,4 +25,5 @@
   right: 6px;
   width: 10px;
   height: 15px;
+  cursor: pointer;
 }

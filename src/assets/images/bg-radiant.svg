@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4968 4209" width="4968" height="4209">
+	<title>ricardo-gomez-angel-5TctPMlipNU-unsplash</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1896,-3012,3012,1896,2022,2750.156)">
+			<stop offset="0" stop-color="#30a0a8" stop-opacity="1"/>
+			<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+	</style>
+	<rect width="4968" height="4209" id="Remplissage en dégradé 1" style="fill: url(#g1)"/>
+</svg>
