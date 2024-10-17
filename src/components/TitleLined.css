@@ -2,7 +2,7 @@
   width: 100%;
   padding-top: 8vmin;
   /* !! anciennement margin-top mais déplace la Navbar de About et Contact */
-  margin-bottom: 4vmin;
+  margin-bottom: 4vh;
   display: flex;
   align-items: center;
 }
@@ -10,8 +10,7 @@
   padding-top: 0;
 }
 #padding-to-be-see {
-  padding-top: 16%
-  /* check taille navbar */
+  padding-top: 12vh;
 }
 
 .line {

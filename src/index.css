@@ -7,19 +7,14 @@ Btn tommette color: #A84134;
 background-components color: #FFFFFE; */
 
 html {
-  height: max-content;
+  /* height: max-content; */
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
 }
 
-body, #root {
-  /* display: flex;
-  flex-direction: column;
-  align-content: space-between; */
-  /* height: max-content; */
+body {
   height: 100%;
-  /* min-height: 100vh; */
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -28,6 +23,14 @@ body, #root {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  /* footer en bas même si pas assez de contenu */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 body strong {
