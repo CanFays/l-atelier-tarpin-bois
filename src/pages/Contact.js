@@ -61,8 +61,8 @@ function Contact() {
           <button type="submit" className="btn btn-tommette">Envoyer</button>
         </form>
       </section> */}
-      <TitleLined myTitle={"Ateliers et stages"} />
-      <section className="atelier" id="atelier">
+      <TitleLined myTitle={"Ateliers et stages"} id="atelier" />
+      <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> À faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/40fa28c1-17b7-419d-b174-93f81b1f2bab/book" target='blank'>  Table basse  </a> |
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/433c7cbc-746c-4f71-9512-b08d150e2ef0/book" target='blank'>  Planche à découper </a> |

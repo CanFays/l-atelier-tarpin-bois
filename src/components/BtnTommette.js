@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import IconInsta from '../assets/icons/InstaRedSvgrepo.svg'
 
 const BtnTommette = ({lineOne, linkTo, lineTwo, addIcon, anchor}) => {
+  console.log("btn ok");
+
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
@@ -13,9 +15,8 @@ const BtnTommette = ({lineOne, linkTo, lineTwo, addIcon, anchor}) => {
       const element = document.getElementById(anchor);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
-        window.scrollBy(0, -window.innerHeight * 0.04);
       } else {
-        console.error('Element with id:', anchor, 'not found');
+        console.error('ANCHOR Element with id:', anchor, 'not found');
       }
     }, 0);
   };
