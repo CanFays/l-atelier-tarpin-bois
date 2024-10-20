@@ -6,7 +6,7 @@ import Igor from '../assets/images/Igor-from-Amandine.webp'
 function About() {
   return (
     <div className='container about'>
-      <TitleLined myTitle={"Tarpin bois qu’es aquò ?"} id={"padding-to-be-see"} />
+      <TitleLined myTitle={"TARPIN BOIS QU’ES AQUÒ ?"} id={"padding-to-be-see"} />
       <section className='about-presentation'>
         <div className="container">
           <div className="row justify-content-between align-items-center">
@@ -24,7 +24,7 @@ function About() {
           </div>
         </div>
       </section>
-      <TitleLined myTitle={"Nos engagements"} />
+      <TitleLined myTitle={"NOS ENGAGEMENTS"} />
       <section className='commitment nicer-dots'>
         <p>Soucieux et conscient des enjeux environnementaux et sociaux (ou humains) de notre époque, il nous tient à coeur de :</p>
         <ul>
@@ -35,7 +35,7 @@ la plupart de nos fournisseurs se situent à moins de 30km de notre atelier</li>
           <li><span className='title-commitment'>valoriser nos déchets</span>  :<br />en créant du lien avec les acteurs de notre secteur : centres équestres et agriculteurs en permaculture pour les copeaux de bois ; distribution de chutes de bois massif pour les personnes ayant une cheminée ou un barbecue (faut pas oublier qu'on est dans le Sud !)</li>
         </ul>
       </section>
-      <TitleLined myTitle={"Equipe et collaborateurs"} />
+      <TitleLined myTitle={"EQUIPE ET COLLABORATEURS"} />
       <section className='team'>
         <p>Afin de garantir un travail unique, éthique et de qualité, nous travaillons en étroite collaboration avec différents <strong>artisans locaux</strong> (ébénistes, tourneurs, ferronniers, tapissiers d'ameublement, laqueurs).</p>
         <p><br />Notre bureau d'étude pourra vous proposer des <strong>visuels 3D</strong> réalistes afin de vous immerger pleinement dans vos projets: <br /> "<strong>N++ architecte</strong>" se fera un plaisir de designer agencement et mobilier.</p>

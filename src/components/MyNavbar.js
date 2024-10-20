@@ -21,9 +21,9 @@ function MyNavbar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto align-items-center">
-              <Nav.Link href="/" className='text-white fs-4' >Accueil</Nav.Link>
-              <Nav.Link href="/qui-sommes-nous" className='text-white fs-4'>L'atelier</Nav.Link>
-              <Nav.Link href="/contact" className='text-white fs-4'>Contact</Nav.Link>
+              <Nav.Link href="/" className='text-white fs-5' >Accueil</Nav.Link>
+              <Nav.Link href="/qui-sommes-nous" className='text-white fs-5'>L'atelier</Nav.Link>
+              <Nav.Link href="/contact" className='text-white fs-5'>Contact</Nav.Link>
                 <SocialMediaIcons  />
             </Nav>
           </Navbar.Collapse>

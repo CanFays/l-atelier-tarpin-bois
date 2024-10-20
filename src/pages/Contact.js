@@ -33,10 +33,10 @@ function Contact() {
 
   return (
     <div className="container contact">
-      <TitleLined myTitle={"Contacter l'Atelier Tarpin Bois"} id={"padding-to-be-see"} />
+      <TitleLined myTitle={"CONTACTER TARPIN BOIS"} id={"padding-to-be-see"} />
       <section className='text'>
-        <h5>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
-        </h5>
+        <p>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
+        </p>
         <br />
         <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
       </section>
@@ -61,7 +61,7 @@ function Contact() {
           <button type="submit" className="btn btn-tommette">Envoyer</button>
         </form>
       </section> */}
-      <TitleLined myTitle={"Ateliers et stages"} id="atelier" />
+      <TitleLined myTitle={"ATELIERS ET STAGES"} id="atelier" />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> À faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
           <a href="https://booking.wecandoo.com/artisans/50cf2001-fea5-4c31-be8c-7b58aa7d7403/workshops/40fa28c1-17b7-419d-b174-93f81b1f2bab/book" target='blank'>  Table basse  </a> |
@@ -71,7 +71,7 @@ function Contact() {
         <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>
       </section>
-      <TitleLined myTitle={"Venir à l'atelier"} />
+      <TitleLined myTitle={"VENIR A L'ATELIER"} />
       <section className="map">
         <div className="container text-start">
           <div className="row justify-content-evenly">
