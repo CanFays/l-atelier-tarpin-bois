@@ -1,9 +1,8 @@
 footer {
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
   margin-top: 40px;
   padding: 10px;
+  font-size: small;
   background-color: #008A95;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -23,7 +22,6 @@ footer, footer a {
 }
 
 .footer-infos-left {
-  font-size: large;
   margin: unset;
 }
 
