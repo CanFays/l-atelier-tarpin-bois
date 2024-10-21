@@ -1,7 +1,7 @@
 .interactiv-card {
   transition: transform 0.6s ease-in-out;
   backface-visibility: hidden;
-  max-height: max-content;
+  height: fit-content;
 }
 .card {
   margin: 1vmin;

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import IconInsta from '../assets/icons/InstaRedSvgrepo.svg'
 
 const BtnTommette = ({lineOne, linkTo, lineTwo, addIcon, anchor}) => {
-  console.log("btn ok");
 
   const handleClick = () => {
     setTimeout(() => {
