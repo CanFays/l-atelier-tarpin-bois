@@ -6,6 +6,7 @@ import TitleLined from '../components/TitleLined';
 import CardList from '../components/Card';
 import LogoTarpin from '../components/LogoTarpin';
 import Mosaic from '../components/Mosaic';
+import Carousel, {openCarousel} from '../components/Carousel';
 
 
 
@@ -61,14 +62,19 @@ function Home() {
       </section>
       <TitleLined myTitle={"ILS PARLENT DE NOUS"} />
       <section className='home-links d-flex justify-content-evenly align-items-stretch'>
+        <Carousel />
         <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" target='blank' className='col-5 card p-3'>
           <div className="cardTitle mb-2" >'Rencontre avec Tarpin Bois'</div>
-          <div className="fst-italic">amandine-marvin.fr</div>
+          <div className="fst-italic text-dark">amandine-marvin.fr</div>
         </a>
-        <a href="https://wecandoo.fr/atelier/fabrication-table-basse-bois-marseille" className='col-5 card p-3' target='blank' rel="noopener">
-          <div className="cardTitle mb-2" >Section 'commentaires' des ateliers</div>
-          <div className="fst-italic">wecandoo.fr</div>
-        </a>
+        <div className="card-carousel col-5 card p-3">
+          <div className="cardTitle mb-2" >Commentaires des ateliers :
+            <img src="" alt="Cliquez pour lire quelques commentaires" onClick={openCarousel} />
+          </div>
+          <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='blank' rel="noreferrer">
+            <div className="fst-italic text-dark">Voir + sur wecandoo.fr</div>
+          </a>
+        </div>
       </section>
     </main>
   );
