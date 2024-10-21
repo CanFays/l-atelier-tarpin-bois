@@ -5,7 +5,7 @@ function Disclaimer () {
   return  (
 
       <pages className="disclaimer">
-        <br /> <br /> <br /><br /> 
+        <br /> <br /> <br /> <br />
         <TitleLined myTitle={"CREDITS"} />
         <p>Création site web : <strong>Candice Fays</strong> </p>
         <p>Création webdesign et refonte du logo :<strong> Clara Fays</strong></p>
