@@ -1,5 +1,7 @@
 {
- "name": "App",
+ "name": "L'Atelier Tapin Bois",
+ "short_name": "TapinBois",
+ "description": "Artisan ébéniste à Marseille - meubles, aménagements, ateliers",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +39,18 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+ ],
+  "start_url": "./index.html",
+  "display": "whitesmoke",
+  "background_color": "#FDFDF9",
+  "theme_color": "#008A95",
+  "scripts": [
+    "../src/index.js"
+  ],
+  "fonts": "../src/assets/font/fonts.css",
+  "images": [
+    "favicon.ico",
+    "../src/assets/images/Banner2.webp",
+    "../src/assets/images/Igor-from-Amandine.wepb"
+  ]
 }
