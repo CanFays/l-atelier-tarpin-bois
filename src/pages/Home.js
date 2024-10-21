@@ -62,11 +62,11 @@ function Home() {
       <TitleLined myTitle={"ILS PARLENT DE NOUS"} />
       <section className='home-links d-flex justify-content-evenly align-items-stretch'>
         <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" target='blank' className='col-5 card p-3'>
-          <div className="cardTitle mb-2">'Rencontre avec Tarpin Bois'</div>
+          <div className="cardTitle mb-2" >'Rencontre avec Tarpin Bois'</div>
           <div className="fst-italic">amandine-marvin.fr</div>
         </a>
         <a href="https://wecandoo.fr/atelier/fabrication-table-basse-bois-marseille" className='col-5 card p-3' target='blank' rel="noopener">
-          <div className="cardTitle mb-2">Section 'commentaires' des ateliers</div>
+          <div className="cardTitle mb-2" >Section 'commentaires' des ateliers</div>
           <div className="fst-italic">wecandoo.fr</div>
         </a>
       </section>

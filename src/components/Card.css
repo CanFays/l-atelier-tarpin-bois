@@ -1,15 +1,14 @@
+.interactiv-card {
+  transition: transform 0.6s ease-in-out;
+  backface-visibility: hidden;
+  max-height: max-content;
+}
 .card {
   margin: 1vmin;
   border: 0.5px solid #008A95;
   border-radius: 4px;
   background-color: #FFFFFE;
   box-shadow : 0px 0px 7px rgba(122, 122, 122, .2);
-}
-
-.interactiv-card {
-  max-height: max-content;
-  transition: transform 0.6s ease-in-out;
-  backface-visibility: hidden;
 }
 
 .cardText {
