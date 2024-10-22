@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import './Carousel.css'
+
+function openCarousel() {
+}
 
 function Carousel() {
 
-  function openCarousel() {
-  }
   function closeCarousel() {
   }
 
@@ -22,7 +24,7 @@ function Carousel() {
         <img src="" alt="Commentaire précédent" />
       </div>
       <div className="content">
-        
+        OW the bioutifoule caroussel !!!
       </div>
       <div className="next">
         <img src="" alt="Commentaire suivant" />
@@ -34,6 +36,7 @@ function Carousel() {
   );
 }
 
+export { Carousel, openCarousel };
 export default Carousel;
 
 // possible exporter une fonction openCarousel vers onClick de img, en dehors du component ? mettre hors function Craousel ? export default deux trucs ?
