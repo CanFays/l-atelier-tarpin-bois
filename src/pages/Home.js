@@ -71,7 +71,7 @@ function Home() {
             <div className="fst-italic text-dark">amandine-marvin.fr</div>
           </a>
           <div className="card-carousel col-6 col-sm-5 card p-3">
-            <div className="cardTitle mb-2 special-cursor" onClick={openCarousel}>Commentaires des ateliers :
+            <div className="cardTitle mb-2 special-cursor" onClick={openCarousel}>Avis sur les ateliers :
               <img src={CarouselComs} className='carousel--open-icon' alt="Cliquez pour lire quelques commentaires" />
             </div>
             <a href="https://wecandoo.fr/artisan/christophe-ebeniste-marseille#associated-workshops" target='blank' rel="noreferrer">

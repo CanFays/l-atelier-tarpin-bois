@@ -13,46 +13,37 @@ const comments = [
 ]
 
 function openCarousel() {
-  console.log("dans open");
   const carouselElement = document.querySelector('.carousel');
   carouselElement.classList.remove('d-none');
-
 }
 
 function Carousel() {
 
   const [currentId, setcurrentId] = useState(1);
-  console.log("entrée Carousel; id=", currentId, typeof currentId);
   let currentComment = comments.find(item => item.id === currentId);
-  console.log("entrée Carousel; currentComment :", currentComment);
 
   function handlePrev() {
     setcurrentId(currentId === 1 ? comments.length : currentId - 1);
-    console.log("dans prev, id:", currentId);
   }
 
   function handleNext() {
     setcurrentId(currentId === comments.length ? 1 : currentId + 1);
-    console.log("dans next, id:", currentId);
   }
 
   function closeCarousel() {
-    console.log("dans close")
     const carouselElement = document.querySelector('.carousel');
     carouselElement.classList.add('d-none');
   }
 
-
   return (
     <div className='carousel d-none'>
       <div className="content card">
-        <img src={btnClose} className="carousel-btn--close" onClick={closeCarousel} alt="Fermer les commentaires" />
         <div className="content-name">{currentComment.name}</div>
         <div className="content-comment">{currentComment.comment}</div>
         <img src={btnPrev} className="carousel-btn--prev" onClick={handlePrev} alt="Commentaire précédent" />
         <img src={btnNext} className="carousel-btn--next" onClick={handleNext} alt="Commentaire suivant" />
+        <img src={btnClose} className="carousel-btn--close" onClick={closeCarousel} alt="Fermer les commentaires" />
       </div>
-
     </div>
   );
 }
