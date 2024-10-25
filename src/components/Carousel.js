@@ -14,6 +14,8 @@ const comments = [
 
 function openCarousel() {
   console.log("dans open");
+  const carouselElement = document.querySelector('.carousel');
+  carouselElement.classList.remove('d-none');
 
 }
 
@@ -35,13 +37,14 @@ function Carousel() {
   }
 
   function closeCarousel() {
-    console.log("dans close");
+    console.log("dans close")
+    const carouselElement = document.querySelector('.carousel');
+    carouselElement.classList.add('d-none');
   }
 
 
   return (
-    <div className='carousel'>
-
+    <div className='carousel d-none'>
       <div className="content card">
         <img src={btnClose} className="carousel-btn--close" onClick={closeCarousel} alt="Fermer les commentaires" />
         <div className="content-name">{currentComment.name}</div>
