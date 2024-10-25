@@ -1,7 +1,9 @@
-import './Carousel.css'
+import './Carousel.css';
+import './Card.css';
+import btnClose from '../assets/icons/CarouselClose.svg';
+import btnPrev from '../assets/icons/CarouselPrev.svg';
+import btnNext from '../assets/icons/CarouselNext.svg';
 import { useState } from 'react';
-
-
 
 const comments = [
   { id: 1, name: "Karine T.", comment: "Pas d'hésitation si vous êtes intéressés par le travail du bois. Benjamin vous fera utiliser de nombreuses machines de son atelier, vous apprendra différentes techniques et vous fera part de sa grande expérience (par exemple reboucher un défaut du bois avec du café 😁), dans une ambiance très sympa. Mon mari a été ravi de l'expérience" },
@@ -39,31 +41,18 @@ function Carousel() {
 
   return (
     <div className='carousel'>
-      <div className="btn-prev" onClick={handlePrev}>
-        <img src="" alt="Commentaire précédent" />
-      </div>
-      <div className="content">
-        <div className="content-name"></div>
-        <div className="content-comment"></div>
-        {currentComment.name}
-        {currentComment.comment}
 
+      <div className="content card">
+        <img src={btnClose} className="carousel-btn--close" onClick={closeCarousel} alt="Fermer les commentaires" />
+        <div className="content-name">{currentComment.name}</div>
+        <div className="content-comment">{currentComment.comment}</div>
+        <img src={btnPrev} className="carousel-btn--prev" onClick={handlePrev} alt="Commentaire précédent" />
+        <img src={btnNext} className="carousel-btn--next" onClick={handleNext} alt="Commentaire suivant" />
+      </div>
 
-      </div>
-      <div className="btn-next" onClick={handleNext}>
-        <img src="" alt="Commentaire suivant" />
-      </div>
-      <div className="btn-close" onClick={closeCarousel}>
-        <img src="" alt="Fermer les ommentaires" />
-      </div>
     </div>
   );
 }
 
 export { Carousel, openCarousel };
 export default Carousel;
-
-// possible exporter une fonction openCarousel vers onClick de img, en dehors du component ? mettre hors function Craousel ? export default deux trucs ?
-// trouver svg pour open close prev et next
-// openCarousel et closeCarousel => d-none du component ?
-// bah coder le carousel

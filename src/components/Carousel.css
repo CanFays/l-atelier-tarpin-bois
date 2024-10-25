@@ -5,3 +5,34 @@
   cursor: zoom-in;
 }
 
+.content {
+  padding: 2vmin 8vmin;
+  position: relative;
+}
+
+.content-name {
+  font-style: italic;
+  font-size: smaller;
+  margin-bottom: 4%;
+}
+
+.carousel-btn--prev, .carousel-btn--next {
+  position: absolute;
+  top: 50%;
+  height: 4vmin;
+  cursor: pointer;
+}
+.carousel-btn--next {
+  right: 1%;
+}
+.carousel-btn--prev {
+  left: 1%;
+}
+
+.carousel-btn--close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  height: 3vmin;
+  cursor: pointer;
+}

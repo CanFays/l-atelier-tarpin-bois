@@ -66,11 +66,11 @@ function Home() {
       <section className='home-links d-flex flex-column'>
         <Carousel />
         <div className="linked-cards d-flex justify-content-evenly align-items-stretch text-center">
-          <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" target='blank' className='col-5 card p-3'>
+          <a href="https://amandine-marvin.fr/mariage/rencontre-avec-tarpin-bois-le-noeud-papillon-elegant-en-bois/" target='blank' className='col-6 col-sm-5 card p-3'>
             <div className="cardTitle mb-2" >'Rencontre avec Tarpin Bois'</div>
             <div className="fst-italic text-dark">amandine-marvin.fr</div>
           </a>
-          <div className="card-carousel col-5 card p-3">
+          <div className="card-carousel col-6 col-sm-5 card p-3">
             <div className="cardTitle mb-2" onClick={openCarousel}>Commentaires des ateliers :
               <img src={CarouselComs} className='open-carousel-icon' alt="Cliquez pour lire quelques commentaires" />
             </div>
