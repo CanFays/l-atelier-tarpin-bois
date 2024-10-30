@@ -3,9 +3,10 @@ import './Contact.css'
 import '../components/BtnTommette.css'
 import TitleLined from '../components/TitleLined';
 import Map from '../components/Map'
-// import emailjs from 'emailjs-com';
+import FormContact from "../components/FormContact";
 
 function Contact() {
+
   const Tel = "06.98.83.77.31"
   const Mail = "tarpinbois@gmail.com"
   const Address = (
@@ -14,22 +15,6 @@ function Contact() {
       13011 Marseille
     </>
   );
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm(
-  //     'YOUR_SERVICE_ID',
-  //     'YOUR_TEMPLATE_ID',
-  //     form.current,
-  //     'YOUR_USER_ID'
-  //   ).then((result) => {
-  //     console.log(result.text);
-  //   }, (error) => {
-  //     console.log(error.text);
-  //   });
-  //   e.target.reset();  // Réinitialiser le formulaire après envoi
-  // };
 
   return (
     <div className="container contact">
@@ -37,30 +22,10 @@ function Contact() {
       <section className='text'>
         <p>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
         </p>
-        <br />
         <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
+        <FormContact />
       </section>
-      {/* <div>lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br />lorem ipsumfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff <br /><br /><br /></div> */}
-      {/* <section className='form'>
-        <p>Vous avez également la possibilité de nous envoyer un message directement :
-        </p> */}
-      {/* <form ref={form} onSubmit={sendEmail}> */}
-        {/* <form ref={form} onSubmit={'sendEmail à faire'}>
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Nom</label>
-            <input type="text" className="form-control" id="name" name="user_name" required />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input type="email" className="form-control" id="email" name="user_email" required />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">Message</label>
-            <textarea className="form-control" id="message" rows="4" name="message" required></textarea>
-          </div>
-          <button type="submit" className="btn btn-tommette">Envoyer</button>
-        </form>
-      </section> */}
+
       <TitleLined myTitle={"ATELIERS ET STAGES"} id="atelier" />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> À faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
