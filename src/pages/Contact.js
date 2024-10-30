@@ -3,7 +3,7 @@ import './Contact.css'
 import '../components/BtnTommette.css'
 import TitleLined from '../components/TitleLined';
 import Map from '../components/Map'
-import FormContact from "../components/FormContact";
+// import FormContact from "../components/FormContact";
 
 function Contact() {
 
@@ -23,7 +23,7 @@ function Contact() {
         <p>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
         </p>
         <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
-        <FormContact />
+        {/* <FormContact /> */}
       </section>
 
       <TitleLined myTitle={"ATELIERS ET STAGES"} id="atelier" />
