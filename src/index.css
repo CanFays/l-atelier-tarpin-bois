@@ -4,10 +4,10 @@
 background-site color : #FDFDF9;
 Main blue color: #008A95;
 Btn tommette color: #A84134;
-background-components color: #FFFFFE; */
+background-components color: #FFFFFE;
+À É  */
 
 html {
-  /* height: max-content; */
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
@@ -53,12 +53,10 @@ a:hover {
 .nicer-dots ul {
   list-style: none;
 }
-
 .nicer-dots ul li {
   position: relative;
   padding-left: 20px;
 }
-
 .nicer-dots ul li::before {
   content: "•";
   position: absolute;
