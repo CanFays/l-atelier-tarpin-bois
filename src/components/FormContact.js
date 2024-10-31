@@ -7,7 +7,7 @@ function FormContact() {
   const form = useRef();
   const serviceID = "service_iu5uy7c";
   const templateID = "template_6ltmfh5";
-  const publicKey = "bloup";
+  const publicKey = "Dw36i0bdWOpKwn1x7";
   // remettre publicKey = "Dw36i0bdWOpKwn1x7"
 
   const sendEmail = (e) => {
@@ -36,17 +36,17 @@ function FormContact() {
       <p>Vous avez également la possibilité de nous envoyer un message directement :</p>
 
       <div className="row">
-        <div className="col-10 col-sm-5 col-md-4">
+        <div className="col-9 col-sm-5 col-md-4">
           <input type="text" name="from_name" id='from_name' placeholder='Nom' autoCapitalize='words'/>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-10 col-sm-5 col-md-4">
+        <div className="col-9 col-sm-5 col-md-4">
           <input type="tel" name="from_phone" id='from_phone' placeholder='Téléphone'/>
         </div>
 
-        <div className="col-10 col-sm-8 col-md-7">
+        <div className="col-9 col-sm-8 col-md-7">
           <input type="email" name="from_email" id='from_email' placeholder='E-mail'/>
         </div>
       </div>
@@ -63,7 +63,7 @@ function FormContact() {
         <input type="submit" value="Go !"
         className="btn-tommette " />
         <div id='mail-fail' className="d-none">Votre message n'a pas pu être envoyé ...</div>
-        <div id='mail-success' className="d-none">Votre message a été envoyé. À bientôt !</div>
+        <div id='mail-success' className="d-none">Votre message a bien été envoyé. À bientôt !</div>
       </div>
     </form>
   );
