@@ -1,5 +1,28 @@
-form input, form textarea {
-  border: solid 1px #A84134;
-  border-radius: 6px;
+/* form {
+  max-width: 600px;
+} */
 
+form input, form textarea {
+  margin: 1vh auto;
+  padding: 8px;
+  border: solid 1px #a8413447;
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px #a841342e;
+
+}
+
+form input:not([type="submit"]), form textarea {
+  width: 100%;
+}
+
+form #from_name, form #from_phone {
+  max-width: 200px;
+}
+
+form #from_phone {
+  max-width: 150px;
+}
+
+form #message {
+  height: 16vh;
 }

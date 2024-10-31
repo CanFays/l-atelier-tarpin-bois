@@ -20,6 +20,7 @@ function FormContact() {
       .then(
         () => {
           console.log('SUCCESS!');
+          // faire une pop-up et suppr les contenus input
           alert('Message envoyé')
         },
         (error) => {
@@ -30,15 +31,40 @@ function FormContact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className='row'>
+    <form ref={form} onSubmit={sendEmail}
+    className=''>
       <p>Vous avez également la possibilité de nous envoyer un message directement :</p>
-      <input type="text" name="from_name" id='from_name' placeholder='Nom' autoCapitalize='words' className='col-6 ' />
-      <input type="tel" name="from_phone" id='from_phone' placeholder='Téléphone' className='col-3 ' />
-      <input type="email" name="from_email" id='from_email' placeholder='Email' className='col-5 ' />
-      <textarea name="message" id='message' placeholder='Message' className='col-8 ' />
-      <input type="submit" value="Go !" className="btn-tommette col-2" />
-      <div id='mail-fail' className="d-none">Votre message n'a pas pu être envoyé ...</div>
-      <div id='mail-success' className="d-none">Votre message a été envoyé. À bientôt !</div>
+
+      <div className="row">
+        <div className="col-10 col-sm-5 col-md-3">
+          <input type="text" name="from_name" id='from_name' placeholder='Nom' autoCapitalize='words'/>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-10 col-sm-5 col-md-3">
+          <input type="tel" name="from_phone" id='from_phone' placeholder='Téléphone'/>
+        </div>
+
+        <div className="col-10 col-sm-8 col-md-6">
+          <input type="email" name="from_email" id='from_email' placeholder='E-mail'/>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-10">
+          <textarea name="message" id='message' placeholder='Message'/>
+        </div>
+      </div>
+
+
+
+      <div className="d-flex">
+        <input type="submit" value="Go !"
+        className="btn-tommette " />
+        <div id='mail-fail' className="d-none">Votre message n'a pas pu être envoyé ...</div>
+        <div id='mail-success' className="d-none">Votre message a été envoyé. À bientôt !</div>
+      </div>
     </form>
   );
 };
