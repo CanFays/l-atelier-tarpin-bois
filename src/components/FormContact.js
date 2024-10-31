@@ -36,23 +36,23 @@ function FormContact() {
       <p>Vous avez également la possibilité de nous envoyer un message directement :</p>
 
       <div className="row">
-        <div className="col-10 col-sm-5 col-md-3">
+        <div className="col-10 col-sm-5 col-md-4">
           <input type="text" name="from_name" id='from_name' placeholder='Nom' autoCapitalize='words'/>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-10 col-sm-5 col-md-3">
+        <div className="col-10 col-sm-5 col-md-4">
           <input type="tel" name="from_phone" id='from_phone' placeholder='Téléphone'/>
         </div>
 
-        <div className="col-10 col-sm-8 col-md-6">
+        <div className="col-10 col-sm-8 col-md-7">
           <input type="email" name="from_email" id='from_email' placeholder='E-mail'/>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-10">
+        <div className="col-11">
           <textarea name="message" id='message' placeholder='Message'/>
         </div>
       </div>
