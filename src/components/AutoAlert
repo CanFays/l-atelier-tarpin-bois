@@ -1,0 +1,40 @@
+import React, { useState, useEffect } from 'react';
+
+function AutoAlert({ message }) {
+  const [show, setShow] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShow(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!show) return null;
+
+  return (
+    <div className="auto-alert">
+      {message}
+    </div>
+  );
+}
+
+
+
+
+
+
+<AutoAlert message="Action réussie !" />
+
+
+
+
+
+.auto-alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}

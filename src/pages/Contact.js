@@ -1,9 +1,9 @@
-// import React, { useRef } from 'react';
 import './Contact.css'
 import '../components/BtnTommette.css'
 import TitleLined from '../components/TitleLined';
 import Map from '../components/Map'
-// import FormContact from "../components/FormContact";
+import FormContact from '../components/FormContact.js'
+
 
 function Contact() {
 
@@ -20,12 +20,11 @@ function Contact() {
     <div className="container contact">
       <TitleLined myTitle={"CONTACTER TARPIN BOIS"} id={"padding-to-be-see"} />
       <section className='text'>
-        <p>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?
+        <p>Vous avez une question, souhaitez faire réaliser un projet personnel, demander un devis ?<br />
+        Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.
         </p>
-        <p>Vous pouvez nous contacter au <strong>{Tel}</strong> ou par mail : <strong>{Mail}</strong>.</p>
-        {/* <FormContact /> */}
+        <FormContact />
       </section>
-
       <TitleLined myTitle={"ATELIERS ET STAGES"} id="atelier" />
       <section className="atelier">
         <p>Vous êtes intéressé.e par un de nos <strong>ateliers</strong>? <br /> À faire ou à offrir, c'est une activité originale pour découvrir le travail du bois ou se perfectionner ! <br /> La réservation se fait sur Wecandoo.fr :
