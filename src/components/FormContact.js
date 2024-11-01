@@ -5,16 +5,16 @@ import emailjs from '@emailjs/browser';
 function FormContact() {
 
   const form = useRef();
-  const serviceID = "service_iu5uy7c";
-  const templateID = "template_6ltmfh5";
-  const publicKey = "Dw36i0bdWOpKwn1x7";
-  // remettre publicKey = "Dw36i0bdWOpKwn1x7"
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  // remettre publicKey = ""
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm(serviceID, templateID, form.current, {
+      .sendForm(serviceId, templateId, form.current, {
         publicKey: publicKey,
       })
       .then(
