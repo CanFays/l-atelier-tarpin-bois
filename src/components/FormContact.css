@@ -15,6 +15,17 @@ form input:not([type="submit"]), form textarea {
   width: 100%;
 }
 
+form input:not([type="submit"]):focus, form textarea:focus {
+  box-shadow: 0 0 5px #ffc107bd;
+  /* Suppr outline de bootstrap ! */
+  outline: none;
+}
+
 form #message {
   height: 16vh;
+}
+
+form .popup--give-contact {
+  font-style: italic;
+  color: #ab473aad;
 }
