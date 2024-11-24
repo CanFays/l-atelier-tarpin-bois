@@ -6,13 +6,9 @@ function FormContact() {
 
   const formRef = useRef();
   const popupRef = useRef();
-  const serviceId ="service_407g23s";
-  // const serviceId = process.env.REACT_APP_SERVICE_ID;
-  // remettre serviceId = bon mail dans template de emailJs !!!
-  const templateId = "template_6ltmfh5";
-  // const templateId = process.env.REACT_APP_TEMPLATE_ID;
-  const publicKey = "Dw36i0bdWOpKwn1x7";
-  // const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();

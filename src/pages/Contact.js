@@ -35,7 +35,7 @@ function Contact() {
         <p>Vous recherchez un <strong>stage</strong> conventionné ? <br />Contactez-nous directement ! <br />Nous ne sommes malheureusement pas en mesure d'accepter d'alternants pour le moment.
         </p>
       </section>
-      <TitleLined myTitle={"VENIR A L'ATELIER"} />
+      <TitleLined myTitle={"VENIR À L'ATELIER"} />
       <section className="map">
         <div className="container text-start">
           <div className="row justify-content-evenly">

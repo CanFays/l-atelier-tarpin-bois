@@ -40,7 +40,7 @@ const CardList = () => {
       longDesc: "Conception de table, banquette, buffet, chevet, console, bar, comptoir, etc",
       cardImage: IconProposal1,
       parentClasses: "card interactiv-card col-10 col-sm-5 col-md-3 card-img-1" },
-    { title: "AMENAGEMENTS",
+    { title: "AMÉNAGEMENTS",
       shortDesc: "sur mesure chez particuliers et professionnels",
       longDesc:  (<>Meuble TV, bibliothèque, dressing<br />-<br />Agencement de boutique, bureau, atelier, etc</>),
       cardImage: IconProposal2,
