@@ -14,7 +14,6 @@ function FormContact() {
     e.preventDefault();
 
     if (document.contactForm.from_email.value === "" && document.contactForm.from_phone.value === "") {
-      console.log("popup à faire : champs vides");
       popupRef.current.classList.remove('d-none');
     } else {
 
