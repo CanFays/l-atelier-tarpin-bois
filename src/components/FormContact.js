@@ -13,9 +13,6 @@ function FormContact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log('tel :', document.contactForm.from_phone.value === "")
-    console.log('mail :', document.contactForm.from_email.value === "")
-
     if (document.contactForm.from_email.value === "" && document.contactForm.from_phone.value === "") {
       console.log("popup à faire : champs vides");
       popupRef.current.classList.remove('d-none');
