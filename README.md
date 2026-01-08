@@ -1,9 +1,11 @@
 ATELIER TARPIN BOIS - EBENISTERIE
 
-Site vitrine
+https://atelier-tarpin-bois.fr/
+Site vitrine : présentation de l'activité et formulaire de contact
 
 yarn
 React.js
 React Rooter
-Bootstrap et Boostrap for React
+Bootstrap - Boostrap for React
 EmailJs
+Hebergeur : Vercel
