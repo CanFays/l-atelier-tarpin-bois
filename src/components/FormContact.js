@@ -16,6 +16,10 @@ function FormContact() {
     if (document.contactForm.from_email.value === "" && document.contactForm.from_phone.value === "") {
       popupRef.current.classList.remove('d-none');
     } else {
+      
+console.log('SERVICE ID:', serviceId);
+console.log('TEMPLATE ID:', templateId);
+console.log('PUBLIC KEY:', publicKey);
 
       emailjs
         .sendForm(serviceId, templateId, formRef.current, {
